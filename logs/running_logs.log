@@ -1,0 +1,484 @@
+[2024-10-26 04:10:04,777: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-10-26 04:10:04,781: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-26 04:10:04,787: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-26 04:10:04,789: ERROR: stage_01_data_ingestion: 'tuple' object has no attribute 'artifacts_root']
+Traceback (most recent call last):
+  File "C:\Users\user\My Data Science\My DS Revival\projects\sugarcane image disease classifier\src\CNN_Classifier\pipeline\stage_01_data_ingestion.py", line 23, in <module>
+    obj.main()
+  File "C:\Users\user\My Data Science\My DS Revival\projects\sugarcane image disease classifier\src\CNN_Classifier\pipeline\stage_01_data_ingestion.py", line 13, in main
+    config = ConfigurationManager()
+  File "C:\Users\user\Envs\env\lib\site-packages\CNN_Classifier\config\configuration.py", line 19, in __init__
+    create_directories(self.config.artifacts_root)
+AttributeError: 'tuple' object has no attribute 'artifacts_root'
+[2024-10-26 04:13:29,520: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-10-26 04:13:29,522: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-26 04:13:29,531: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-26 04:13:29,531: ERROR: stage_01_data_ingestion: 'tuple' object has no attribute 'artifacts_root']
+Traceback (most recent call last):
+  File "C:\Users\user\My Data Science\My DS Revival\projects\sugarcane image disease classifier\src\CNN_Classifier\pipeline\stage_01_data_ingestion.py", line 23, in <module>
+    obj.main()
+  File "C:\Users\user\My Data Science\My DS Revival\projects\sugarcane image disease classifier\src\CNN_Classifier\pipeline\stage_01_data_ingestion.py", line 13, in main
+    config = ConfigurationManager()
+  File "C:\Users\user\Envs\env\lib\site-packages\CNN_Classifier\config\configuration.py", line 19, in __init__
+    create_directories(self.config.artifacts_root)
+AttributeError: 'tuple' object has no attribute 'artifacts_root'
+[2024-10-26 04:29:13,529: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-10-26 04:29:13,532: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-26 04:29:13,542: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-26 04:29:13,544: ERROR: stage_01_data_ingestion: 'tuple' object has no attribute 'artifacts_root']
+Traceback (most recent call last):
+  File "C:\Users\user\My Data Science\My DS Revival\projects\sugarcane image disease classifier\src\CNN_Classifier\pipeline\stage_01_data_ingestion.py", line 23, in <module>
+    obj.main()
+  File "C:\Users\user\My Data Science\My DS Revival\projects\sugarcane image disease classifier\src\CNN_Classifier\pipeline\stage_01_data_ingestion.py", line 13, in main
+    config = ConfigurationManager()
+  File "c:\users\user\my data science\my ds revival\projects\sugarcane image disease classifier\src\CNN_Classifier\config\configuration.py", line 19, in __init__
+    create_directories(self.config.artifacts_root)
+AttributeError: 'tuple' object has no attribute 'artifacts_root'
+[2024-10-26 04:30:29,068: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-10-26 04:30:29,075: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-26 04:30:29,130: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-26 04:30:29,131: ERROR: stage_01_data_ingestion: 'tuple' object has no attribute 'artifacts_root']
+Traceback (most recent call last):
+  File "C:\Users\user\My Data Science\My DS Revival\projects\sugarcane image disease classifier\src\CNN_Classifier\pipeline\stage_01_data_ingestion.py", line 23, in <module>
+    obj.main()
+  File "C:\Users\user\My Data Science\My DS Revival\projects\sugarcane image disease classifier\src\CNN_Classifier\pipeline\stage_01_data_ingestion.py", line 13, in main
+    config = ConfigurationManager()
+  File "c:\users\user\my data science\my ds revival\projects\sugarcane image disease classifier\src\CNN_Classifier\config\configuration.py", line 19, in __init__
+    create_directories(self.config.artifacts_root)
+AttributeError: 'tuple' object has no attribute 'artifacts_root'
+[2024-10-26 04:32:08,510: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-10-26 04:32:08,520: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-26 04:32:08,533: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-26 04:32:08,535: ERROR: stage_01_data_ingestion: 'tuple' object has no attribute 'artifacts_root']
+Traceback (most recent call last):
+  File "C:\Users\user\My Data Science\My DS Revival\projects\sugarcane image disease classifier\src\CNN_Classifier\pipeline\stage_01_data_ingestion.py", line 23, in <module>
+    obj.main()
+  File "C:\Users\user\My Data Science\My DS Revival\projects\sugarcane image disease classifier\src\CNN_Classifier\pipeline\stage_01_data_ingestion.py", line 13, in main
+    config = ConfigurationManager()
+  File "c:\users\user\my data science\my ds revival\projects\sugarcane image disease classifier\src\CNN_Classifier\config\configuration.py", line 19, in __init__
+    create_directories([self.config.artifacts_root])
+AttributeError: 'tuple' object has no attribute 'artifacts_root'
+[2024-10-26 04:33:42,930: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-10-26 04:33:42,934: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-26 04:33:42,938: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-26 04:33:42,960: INFO: common: created directory at: artifacts]
+[2024-10-26 04:33:42,961: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-26 04:33:42,997: INFO: data_ingestion: Data sucessfully acquired]
+[2024-10-26 04:33:43,116: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2024-10-26 06:40:18,204: INFO: stage_02_prepare_base_model: *******************]
+[2024-10-26 06:40:18,257: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2024-10-26 06:40:18,271: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-26 06:40:18,289: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-26 06:40:18,291: INFO: common: created directory at: artifacts]
+[2024-10-26 06:40:18,293: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-10-26 06:40:19,306: ERROR: stage_02_prepare_base_model: PrepareBaseModel.save_model() missing 2 required positional arguments: 'path' and 'model']
+Traceback (most recent call last):
+  File "C:\Users\user\My Data Science\My DS Revival\projects\sugarcane image disease classifier\src\CNN_Classifier\pipeline\stage_02_prepare_base_model.py", line 25, in <module>
+    obj.main()
+  File "C:\Users\user\My Data Science\My DS Revival\projects\sugarcane image disease classifier\src\CNN_Classifier\pipeline\stage_02_prepare_base_model.py", line 16, in main
+    prepare_base_model.get_base_model()
+  File "c:\users\user\my data science\my ds revival\projects\sugarcane image disease classifier\src\CNN_Classifier\components\prepare_base_model.py", line 18, in get_base_model
+    self.save_model()
+TypeError: PrepareBaseModel.save_model() missing 2 required positional arguments: 'path' and 'model'
+[2024-10-26 06:41:17,543: INFO: stage_02_prepare_base_model: *******************]
+[2024-10-26 06:41:17,544: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2024-10-26 06:41:17,547: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-26 06:41:17,553: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-26 06:41:17,555: INFO: common: created directory at: artifacts]
+[2024-10-26 06:41:17,555: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-10-26 06:41:18,173: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-10-26 06:41:18,649: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-10-26 06:41:18,805: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-10-26 08:35:07,252: INFO: stage_03_training: *******************]
+[2024-10-26 08:35:07,261: INFO: stage_03_training: >>>>>> stage Training started <<<<<<]
+[2024-10-26 08:35:07,265: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-26 08:35:07,275: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-26 08:35:07,277: INFO: common: created directory at: artifacts]
+[2024-10-26 08:35:07,279: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-10-26 08:35:07,281: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-10-26 08:35:07,283: ERROR: stage_03_training: The filepath provided must end in `.keras` (Keras model format). Received: filepath=artifacts\prepare_callbacks\checkpoint_dir\model.h5]
+Traceback (most recent call last):
+  File "C:\Users\user\My Data Science\My DS Revival\projects\sugarcane image disease classifier\src\CNN_Classifier\pipeline\stage_03_training.py", line 38, in <module>
+    obj.main()
+  File "C:\Users\user\My Data Science\My DS Revival\projects\sugarcane image disease classifier\src\CNN_Classifier\pipeline\stage_03_training.py", line 19, in main
+    callback_list = prepare_callbacks.get_tb_ckpt_callbacks()
+  File "c:\users\user\my data science\my ds revival\projects\sugarcane image disease classifier\src\CNN_Classifier\components\prepare_callbacks.py", line 29, in get_tb_ckpt_callbacks
+    self._create_ckpt_callbacks
+  File "c:\users\user\my data science\my ds revival\projects\sugarcane image disease classifier\src\CNN_Classifier\components\prepare_callbacks.py", line 21, in _create_ckpt_callbacks
+    return keras.callbacks.ModelCheckpoint(
+  File "C:\Users\user\Envs\env\lib\site-packages\keras\src\callbacks\model_checkpoint.py", line 191, in __init__
+    raise ValueError(
+ValueError: The filepath provided must end in `.keras` (Keras model format). Received: filepath=artifacts\prepare_callbacks\checkpoint_dir\model.h5
+[2024-10-26 08:41:18,109: INFO: stage_02_prepare_base_model: *******************]
+[2024-10-26 08:41:18,110: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2024-10-26 08:41:18,122: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-26 08:41:18,128: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-26 08:41:18,130: INFO: common: created directory at: artifacts]
+[2024-10-26 08:41:18,131: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-10-26 08:41:20,098: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-10-26 08:41:41,398: INFO: stage_03_training: *******************]
+[2024-10-26 08:41:41,398: INFO: stage_03_training: >>>>>> stage Training started <<<<<<]
+[2024-10-26 08:41:41,402: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-26 08:41:41,404: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-26 08:41:41,405: INFO: common: created directory at: artifacts]
+[2024-10-26 08:41:41,407: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-10-26 08:41:41,417: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-10-26 08:41:41,419: INFO: common: created directory at: artifacts\training]
+[2024-10-26 08:41:42,106: ERROR: stage_03_training: module 'keras.api.preprocessing.image' has no attribute 'ImageDataGenerator']
+Traceback (most recent call last):
+  File "C:\Users\user\My Data Science\My DS Revival\projects\sugarcane image disease classifier\src\CNN_Classifier\pipeline\stage_03_training.py", line 38, in <module>
+    obj.main()
+  File "C:\Users\user\My Data Science\My DS Revival\projects\sugarcane image disease classifier\src\CNN_Classifier\pipeline\stage_03_training.py", line 25, in main
+    training.train_valid_generator()
+  File "c:\users\user\my data science\my ds revival\projects\sugarcane image disease classifier\src\CNN_Classifier\components\training.py", line 27, in train_valid_generator
+    valid_datagenerator = keras.preprocessing.image.ImageDataGenerator(
+AttributeError: module 'keras.api.preprocessing.image' has no attribute 'ImageDataGenerator'
+[2024-10-26 14:47:40,820: INFO: stage_03_training: *******************]
+[2024-10-26 14:47:40,821: INFO: stage_03_training: >>>>>> stage Training started <<<<<<]
+[2024-10-26 14:47:40,821: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-26 14:47:40,837: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-26 14:47:40,837: INFO: common: created directory at: artifacts]
+[2024-10-26 14:47:40,849: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-10-26 14:47:40,852: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-10-26 14:47:40,857: INFO: common: created directory at: artifacts\training]
+[2024-10-26 14:47:42,175: ERROR: stage_03_training: module 'keras.api.preprocessing.image' has no attribute 'ImageDataGenerator']
+Traceback (most recent call last):
+  File "C:\Users\user\My Data Science\My DS Revival\projects\sugarcane image disease classifier\src\CNN_Classifier\pipeline\stage_03_training.py", line 38, in <module>
+    obj.main()
+  File "C:\Users\user\My Data Science\My DS Revival\projects\sugarcane image disease classifier\src\CNN_Classifier\pipeline\stage_03_training.py", line 25, in main
+    training.train_valid_generator()
+  File "c:\users\user\my data science\my ds revival\projects\sugarcane image disease classifier\src\CNN_Classifier\components\training.py", line 27, in train_valid_generator
+    valid_datagenerator = keras.preprocessing.image.ImageDataGenerator(
+AttributeError: module 'keras.api.preprocessing.image' has no attribute 'ImageDataGenerator'
+[2024-10-26 14:52:30,887: INFO: stage_03_training: *******************]
+[2024-10-26 14:52:30,889: INFO: stage_03_training: >>>>>> stage Training started <<<<<<]
+[2024-10-26 14:52:30,895: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-26 14:52:30,903: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-26 14:52:30,910: INFO: common: created directory at: artifacts]
+[2024-10-26 14:52:30,927: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-10-26 14:52:30,930: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-10-26 14:52:30,934: INFO: common: created directory at: artifacts\training]
+[2024-10-26 14:52:31,744: ERROR: stage_03_training: module 'keras.api.preprocessing.image' has no attribute 'ImageDataGenerator']
+Traceback (most recent call last):
+  File "C:\Users\user\My Data Science\My DS Revival\projects\sugarcane image disease classifier\src\CNN_Classifier\pipeline\stage_03_training.py", line 38, in <module>
+    obj.main()
+  File "C:\Users\user\My Data Science\My DS Revival\projects\sugarcane image disease classifier\src\CNN_Classifier\pipeline\stage_03_training.py", line 25, in main
+    training.train_valid_generator()
+  File "c:\users\user\my data science\my ds revival\projects\sugarcane image disease classifier\src\CNN_Classifier\components\training.py", line 27, in train_valid_generator
+    valid_datagenerator = keras.preprocessing.image.ImageDataGenerator(
+AttributeError: module 'keras.api.preprocessing.image' has no attribute 'ImageDataGenerator'
+[2024-10-27 05:40:26,698: INFO: stage_03_training: *******************]
+[2024-10-27 05:40:26,699: INFO: stage_03_training: >>>>>> stage Training started <<<<<<]
+[2024-10-27 05:40:26,700: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-27 05:40:26,700: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-27 05:40:26,718: INFO: common: created directory at: artifacts]
+[2024-10-27 05:40:26,718: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-10-27 05:40:26,721: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-10-27 05:40:26,721: INFO: common: created directory at: artifacts\training]
+[2024-10-27 05:40:28,028: ERROR: stage_03_training: module 'keras.api.preprocessing.image' has no attribute 'ImageDataGenerator']
+Traceback (most recent call last):
+  File "C:\Users\user\My Data Science\My DS Revival\projects\sugarcane image disease classifier\src\CNN_Classifier\pipeline\stage_03_training.py", line 38, in <module>
+    obj.main()
+  File "C:\Users\user\My Data Science\My DS Revival\projects\sugarcane image disease classifier\src\CNN_Classifier\pipeline\stage_03_training.py", line 25, in main
+    training.train_valid_generator()
+  File "c:\users\user\my data science\my ds revival\projects\sugarcane image disease classifier\src\CNN_Classifier\components\training.py", line 27, in train_valid_generator
+    valid_datagenerator = keras.preprocessing.image.ImageDataGenerator(
+AttributeError: module 'keras.api.preprocessing.image' has no attribute 'ImageDataGenerator'
+[2024-10-27 05:41:57,062: INFO: stage_03_training: *******************]
+[2024-10-27 05:41:57,064: INFO: stage_03_training: >>>>>> stage Training started <<<<<<]
+[2024-10-27 05:41:57,069: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-27 05:41:57,072: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-27 05:41:57,073: INFO: common: created directory at: artifacts]
+[2024-10-27 05:41:57,075: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-10-27 05:41:57,076: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-10-27 05:41:57,077: INFO: common: created directory at: artifacts\training]
+[2024-10-27 05:41:57,783: ERROR: stage_03_training: module 'keras.api.preprocessing.image' has no attribute 'ImageDataGenerator']
+Traceback (most recent call last):
+  File "C:\Users\user\My Data Science\My DS Revival\projects\sugarcane image disease classifier\src\CNN_Classifier\pipeline\stage_03_training.py", line 38, in <module>
+    obj.main()
+  File "C:\Users\user\My Data Science\My DS Revival\projects\sugarcane image disease classifier\src\CNN_Classifier\pipeline\stage_03_training.py", line 24, in main
+    training.get_base_model()
+  File "c:\users\user\my data science\my ds revival\projects\sugarcane image disease classifier\src\CNN_Classifier\components\training.py", line 27, in get_base_model
+    valid_datagenerator = keras.preprocessing.image.ImageDataGenerator(
+AttributeError: module 'keras.api.preprocessing.image' has no attribute 'ImageDataGenerator'
+[2024-10-27 05:43:09,454: INFO: stage_03_training: *******************]
+[2024-10-27 05:43:09,454: INFO: stage_03_training: >>>>>> stage Training started <<<<<<]
+[2024-10-27 05:43:09,468: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-27 05:43:09,470: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-27 05:43:09,472: INFO: common: created directory at: artifacts]
+[2024-10-27 05:43:09,475: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-10-27 05:43:09,476: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-10-27 05:43:09,477: INFO: common: created directory at: artifacts\training]
+[2024-10-27 05:43:10,348: ERROR: stage_03_training: 'Training' object has no attribute 'train_valid_generator']
+Traceback (most recent call last):
+  File "C:\Users\user\My Data Science\My DS Revival\projects\sugarcane image disease classifier\src\CNN_Classifier\pipeline\stage_03_training.py", line 38, in <module>
+    obj.main()
+  File "C:\Users\user\My Data Science\My DS Revival\projects\sugarcane image disease classifier\src\CNN_Classifier\pipeline\stage_03_training.py", line 25, in main
+    training.train_valid_generator()
+AttributeError: 'Training' object has no attribute 'train_valid_generator'
+[2024-10-27 17:04:59,384: INFO: stage_03_training: *******************]
+[2024-10-27 17:04:59,384: INFO: stage_03_training: >>>>>> stage Training started <<<<<<]
+[2024-10-27 17:04:59,420: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-27 17:04:59,435: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-27 17:04:59,435: INFO: common: created directory at: artifacts]
+[2024-10-27 17:04:59,451: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-10-27 17:04:59,451: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-10-27 17:04:59,451: INFO: common: created directory at: artifacts\training]
+[2024-10-27 17:05:00,734: ERROR: stage_03_training: module 'keras.api.preprocessing.image' has no attribute 'ImageDataGenerator']
+Traceback (most recent call last):
+  File "C:\Users\user\My Data Science\My DS Revival\projects\sugarcane image disease classifier\src\CNN_Classifier\pipeline\stage_03_training.py", line 38, in <module>
+    obj.main()
+  File "C:\Users\user\My Data Science\My DS Revival\projects\sugarcane image disease classifier\src\CNN_Classifier\pipeline\stage_03_training.py", line 25, in main
+    training.train_valid_generator()
+  File "c:\users\user\my data science\my ds revival\projects\sugarcane image disease classifier\src\CNN_Classifier\components\training.py", line 27, in train_valid_generator
+    valid_datagenerator = keras.preprocessing.image.ImageDataGenerator(
+AttributeError: module 'keras.api.preprocessing.image' has no attribute 'ImageDataGenerator'
+[2024-10-27 17:26:12,966: INFO: stage_03_training: *******************]
+[2024-10-27 17:26:12,967: INFO: stage_03_training: >>>>>> stage Training started <<<<<<]
+[2024-10-27 17:26:12,970: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-27 17:26:12,978: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-27 17:26:12,981: INFO: common: created directory at: artifacts]
+[2024-10-27 17:26:12,982: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-10-27 17:26:12,982: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-10-27 17:26:12,983: INFO: common: created directory at: artifacts\training]
+[2024-10-27 17:27:27,179: INFO: stage_03_training: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-10-27 17:29:17,189: INFO: stage_04_evaluation: *******************]
+[2024-10-27 17:29:17,190: INFO: stage_04_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-10-27 17:29:17,192: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-27 17:29:17,198: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-27 17:29:17,200: INFO: common: created directory at: artifacts]
+[2024-10-27 17:29:25,839: INFO: common: json file saved at: scores.json]
+[2024-10-27 17:29:25,840: INFO: stage_04_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-10-27 17:31:34,492: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.43.242:8080]
+[2024-10-27 17:31:34,499: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-10-27 17:32:38,430: INFO: _internal: 127.0.0.1 - - [27/Oct/2024 17:32:38] "GET / HTTP/1.1" 200 -]
+[2024-10-27 17:32:38,779: INFO: _internal: 127.0.0.1 - - [27/Oct/2024 17:32:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-10-27 17:34:04,437: INFO: _internal: 127.0.0.1 - - [27/Oct/2024 17:34:04] "GET / HTTP/1.1" 200 -]
+[2024-10-27 17:34:06,447: INFO: _internal: 127.0.0.1 - - [27/Oct/2024 17:34:06] "GET / HTTP/1.1" 200 -]
+[2024-10-27 17:34:35,435: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.43.242:8080]
+[2024-10-27 17:34:35,439: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-10-27 17:34:49,989: INFO: _internal: 127.0.0.1 - - [27/Oct/2024 17:34:49] "GET / HTTP/1.1" 200 -]
+[2024-10-27 17:36:52,693: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\user\Envs\env\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\user\Envs\env\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\user\Envs\env\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\user\Envs\env\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\user\Envs\env\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\user\Envs\env\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "C:\Users\user\My Data Science\My DS Revival\projects\sugarcane image disease classifier\app.py", line 34, in predictRoute
+    result = clApp.classifier.predict()
+  File "c:\users\user\my data science\my ds revival\projects\sugarcane image disease classifier\src\CNN_Classifier\pipeline\predict.py", line 14, in predict
+    model = load_model(os.path.join("artifacts","training", "keras.h5"))
+  File "C:\Users\user\Envs\env\lib\site-packages\keras\src\saving\saving_api.py", line 196, in load_model
+    return legacy_h5_format.load_model_from_hdf5(
+  File "C:\Users\user\Envs\env\lib\site-packages\keras\src\legacy\saving\legacy_h5_format.py", line 116, in load_model_from_hdf5
+    f = h5py.File(filepath, mode="r")
+  File "C:\Users\user\Envs\env\lib\site-packages\h5py\_hl\files.py", line 561, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, fcpl, swmr=swmr)
+  File "C:\Users\user\Envs\env\lib\site-packages\h5py\_hl\files.py", line 235, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py\\_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py\\_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py\\h5f.pyx", line 102, in h5py.h5f.open
+FileNotFoundError: [Errno 2] Unable to synchronously open file (unable to open file: name = 'artifacts\training\keras.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+[2024-10-27 17:36:52,922: INFO: _internal: 127.0.0.1 - - [27/Oct/2024 17:36:52] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-10-27 17:40:45,690: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.43.242:8080]
+[2024-10-27 17:40:45,692: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-10-27 17:40:53,326: INFO: _internal: 127.0.0.1 - - [27/Oct/2024 17:40:53] "GET / HTTP/1.1" 200 -]
+[2024-10-27 17:41:10,084: INFO: _internal: 127.0.0.1 - - [27/Oct/2024 17:41:10] "POST /predict HTTP/1.1" 200 -]
+[2024-10-27 17:42:05,622: INFO: _internal: 127.0.0.1 - - [27/Oct/2024 17:42:05] "POST /predict HTTP/1.1" 200 -]
+[2024-10-27 17:42:27,652: INFO: _internal: 127.0.0.1 - - [27/Oct/2024 17:42:27] "POST /predict HTTP/1.1" 200 -]
+[2024-10-27 17:42:48,072: INFO: _internal: 127.0.0.1 - - [27/Oct/2024 17:42:48] "POST /predict HTTP/1.1" 200 -]
+[2024-10-27 17:43:04,212: WARNING: polymorphic_function: 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000025EA79BBAC0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2024-10-27 17:43:04,284: INFO: _internal: 127.0.0.1 - - [27/Oct/2024 17:43:04] "POST /predict HTTP/1.1" 200 -]
+[2024-10-27 17:44:38,529: INFO: _internal: 127.0.0.1 - - [27/Oct/2024 17:44:38] "GET / HTTP/1.1" 200 -]
+[2024-10-27 17:44:49,028: WARNING: polymorphic_function: 6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000025EA79BBAC0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2024-10-27 17:44:49,102: INFO: _internal: 127.0.0.1 - - [27/Oct/2024 17:44:49] "POST /predict HTTP/1.1" 200 -]
+[2024-10-27 17:45:00,032: INFO: _internal: 127.0.0.1 - - [27/Oct/2024 17:45:00] "POST /predict HTTP/1.1" 200 -]
+[2024-10-27 17:45:11,545: INFO: _internal: 127.0.0.1 - - [27/Oct/2024 17:45:11] "POST /predict HTTP/1.1" 200 -]
+[2024-10-27 17:45:30,902: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.43.242:8080]
+[2024-10-27 17:45:30,922: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-10-27 17:45:34,540: INFO: _internal: 127.0.0.1 - - [27/Oct/2024 17:45:34] "GET / HTTP/1.1" 200 -]
+[2024-10-27 17:45:43,877: INFO: _internal: 127.0.0.1 - - [27/Oct/2024 17:45:43] "POST /predict HTTP/1.1" 200 -]
+[2024-10-27 17:46:00,324: INFO: _internal: 127.0.0.1 - - [27/Oct/2024 17:46:00] "POST /predict HTTP/1.1" 200 -]
+[2024-10-27 17:46:14,415: INFO: _internal: 127.0.0.1 - - [27/Oct/2024 17:46:14] "POST /predict HTTP/1.1" 200 -]
+[2024-10-27 17:46:24,409: INFO: _internal: 127.0.0.1 - - [27/Oct/2024 17:46:24] "POST /predict HTTP/1.1" 200 -]
+[2024-10-27 17:46:55,487: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.43.242:8080]
+[2024-10-27 17:46:55,489: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-10-27 17:46:55,628: INFO: _internal: 127.0.0.1 - - [27/Oct/2024 17:46:55] "GET / HTTP/1.1" 200 -]
+[2024-10-27 17:47:07,620: INFO: _internal: 127.0.0.1 - - [27/Oct/2024 17:47:07] "POST /predict HTTP/1.1" 200 -]
+[2024-10-27 17:47:19,422: INFO: _internal: 127.0.0.1 - - [27/Oct/2024 17:47:19] "POST /predict HTTP/1.1" 200 -]
+[2024-10-27 17:47:24,301: INFO: _internal: 127.0.0.1 - - [27/Oct/2024 17:47:24] "POST /predict HTTP/1.1" 200 -]
+[2024-10-27 17:47:32,463: INFO: _internal: 127.0.0.1 - - [27/Oct/2024 17:47:32] "POST /predict HTTP/1.1" 200 -]
+[2024-10-27 17:47:44,335: WARNING: polymorphic_function: 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001DC236B3AC0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2024-10-27 17:47:44,341: INFO: _internal: 127.0.0.1 - - [27/Oct/2024 17:47:44] "POST /predict HTTP/1.1" 200 -]
+[2024-10-27 17:47:54,781: WARNING: polymorphic_function: 6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001DC236B0A60> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2024-10-27 17:47:54,841: INFO: _internal: 127.0.0.1 - - [27/Oct/2024 17:47:54] "POST /predict HTTP/1.1" 200 -]
+[2024-10-27 17:48:08,735: INFO: _internal: 127.0.0.1 - - [27/Oct/2024 17:48:08] "POST /predict HTTP/1.1" 200 -]
+[2024-10-27 17:48:13,201: INFO: _internal: 127.0.0.1 - - [27/Oct/2024 17:48:13] "POST /predict HTTP/1.1" 200 -]
+[2024-10-27 17:48:21,651: INFO: _internal: 127.0.0.1 - - [27/Oct/2024 17:48:21] "POST /predict HTTP/1.1" 200 -]
+[2024-10-27 17:48:31,146: INFO: _internal: 127.0.0.1 - - [27/Oct/2024 17:48:31] "POST /predict HTTP/1.1" 200 -]
+[2024-10-27 17:48:59,134: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.43.242:8080]
+[2024-10-27 17:48:59,139: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-10-27 17:49:20,328: INFO: _internal: 127.0.0.1 - - [27/Oct/2024 17:49:20] "POST /predict HTTP/1.1" 200 -]
+[2024-10-27 17:49:29,386: INFO: _internal: 127.0.0.1 - - [27/Oct/2024 17:49:29] "POST /predict HTTP/1.1" 200 -]
+[2024-10-27 17:49:38,658: INFO: _internal: 127.0.0.1 - - [27/Oct/2024 17:49:38] "POST /predict HTTP/1.1" 200 -]
+[2024-10-27 17:57:52,556: INFO: stage_03_training: *******************]
+[2024-10-27 17:57:52,556: INFO: stage_03_training: >>>>>> stage Training started <<<<<<]
+[2024-10-27 17:57:52,560: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-27 17:57:52,569: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-27 17:57:52,572: INFO: common: created directory at: artifacts]
+[2024-10-27 17:57:52,574: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-10-27 17:57:52,576: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-10-27 17:57:52,577: INFO: common: created directory at: artifacts\training]
+[2024-10-27 17:57:53,328: ERROR: stage_03_training: Argument path of type <class 'str'> to <function save_json at 0x000002117EF6A710> does not match annotation type <class 'pathlib.Path'>]
+Traceback (most recent call last):
+  File "C:\Users\user\My Data Science\My DS Revival\projects\sugarcane image disease classifier\src\CNN_Classifier\pipeline\stage_03_training.py", line 38, in <module>
+    obj.main()
+  File "C:\Users\user\My Data Science\My DS Revival\projects\sugarcane image disease classifier\src\CNN_Classifier\pipeline\stage_03_training.py", line 25, in main
+    training.train_valid_generator()
+  File "c:\users\user\my data science\my ds revival\projects\sugarcane image disease classifier\src\CNN_Classifier\components\training.py", line 63, in train_valid_generator
+    save_json('class_to_index_map.json', self.index_to_class)
+  File "C:\Users\user\Envs\env\lib\site-packages\ensure\main.py", line 803, in __call__
+    raise EnsureError(msg.format(
+ensure.main.EnsureError: Argument path of type <class 'str'> to <function save_json at 0x000002117EF6A710> does not match annotation type <class 'pathlib.Path'>
+[2024-10-27 17:58:57,853: INFO: stage_03_training: *******************]
+[2024-10-27 17:58:57,854: INFO: stage_03_training: >>>>>> stage Training started <<<<<<]
+[2024-10-27 17:58:57,858: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-27 17:58:57,863: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-27 17:58:57,874: INFO: common: created directory at: artifacts]
+[2024-10-27 17:58:57,888: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-10-27 17:58:57,892: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-10-27 17:58:57,901: INFO: common: created directory at: artifacts\training]
+[2024-10-27 17:59:18,984: INFO: stage_03_training: *******************]
+[2024-10-27 17:59:18,985: INFO: stage_03_training: >>>>>> stage Training started <<<<<<]
+[2024-10-27 17:59:18,989: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-27 17:59:18,994: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-27 17:59:18,995: INFO: common: created directory at: artifacts]
+[2024-10-27 17:59:18,998: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-10-27 17:59:19,004: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-10-27 17:59:19,009: INFO: common: created directory at: artifacts\training]
+[2024-10-27 17:59:19,578: ERROR: stage_03_training: Argument path of type <class 'str'> to <function save_json at 0x0000025CCEF3A710> does not match annotation type <class 'pathlib.Path'>]
+Traceback (most recent call last):
+  File "C:\Users\user\My Data Science\My DS Revival\projects\sugarcane image disease classifier\src\CNN_Classifier\pipeline\stage_03_training.py", line 38, in <module>
+    obj.main()
+  File "C:\Users\user\My Data Science\My DS Revival\projects\sugarcane image disease classifier\src\CNN_Classifier\pipeline\stage_03_training.py", line 25, in main
+    training.train_valid_generator()
+  File "c:\users\user\my data science\my ds revival\projects\sugarcane image disease classifier\src\CNN_Classifier\components\training.py", line 63, in train_valid_generator
+    save_json('class_to_index_map.json', self.index_to_class)
+  File "C:\Users\user\Envs\env\lib\site-packages\ensure\main.py", line 803, in __call__
+    raise EnsureError(msg.format(
+ensure.main.EnsureError: Argument path of type <class 'str'> to <function save_json at 0x0000025CCEF3A710> does not match annotation type <class 'pathlib.Path'>
+[2024-10-27 17:59:58,399: INFO: stage_03_training: *******************]
+[2024-10-27 17:59:58,400: INFO: stage_03_training: >>>>>> stage Training started <<<<<<]
+[2024-10-27 17:59:58,404: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-27 17:59:58,409: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-27 17:59:58,410: INFO: common: created directory at: artifacts]
+[2024-10-27 17:59:58,422: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-10-27 17:59:58,423: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-10-27 17:59:58,424: INFO: common: created directory at: artifacts\training]
+[2024-10-27 17:59:59,096: INFO: common: json file saved at: class_to_index_map.json]
+[2024-10-27 18:00:59,530: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.43.242:8080]
+[2024-10-27 18:00:59,532: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-10-27 18:02:14,584: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.43.242:8080]
+[2024-10-27 18:02:14,589: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-10-27 18:02:20,714: INFO: _internal: 127.0.0.1 - - [27/Oct/2024 18:02:20] "GET / HTTP/1.1" 200 -]
+[2024-10-27 18:02:33,308: INFO: _internal: 127.0.0.1 - - [27/Oct/2024 18:02:33] "POST /predict HTTP/1.1" 200 -]
+[2024-10-27 18:02:45,463: INFO: _internal: 127.0.0.1 - - [27/Oct/2024 18:02:45] "POST /predict HTTP/1.1" 200 -]
+[2024-10-30 19:21:09,563: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.43.249:8080]
+[2024-10-30 19:21:09,567: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-10-30 19:21:21,020: INFO: _internal: 127.0.0.1 - - [30/Oct/2024 19:21:21] "GET / HTTP/1.1" 200 -]
+[2024-10-30 19:23:32,540: INFO: _internal: 127.0.0.1 - - [30/Oct/2024 19:23:32] "GET / HTTP/1.1" 200 -]
+[2024-10-30 19:23:41,461: INFO: _internal: 127.0.0.1 - - [30/Oct/2024 19:23:41] "GET / HTTP/1.1" 200 -]
+[2024-10-30 19:23:51,457: INFO: _internal: 127.0.0.1 - - [30/Oct/2024 19:23:51] "GET / HTTP/1.1" 200 -]
+[2024-10-30 19:24:04,412: INFO: _internal: 127.0.0.1 - - [30/Oct/2024 19:24:04] "GET / HTTP/1.1" 200 -]
+[2024-10-30 19:24:31,230: INFO: _internal: 127.0.0.1 - - [30/Oct/2024 19:24:31] "GET / HTTP/1.1" 200 -]
+[2024-10-30 19:25:02,822: INFO: _internal: 127.0.0.1 - - [30/Oct/2024 19:25:02] "GET / HTTP/1.1" 200 -]
+[2024-10-30 19:25:10,819: INFO: _internal: 127.0.0.1 - - [30/Oct/2024 19:25:10] "GET / HTTP/1.1" 200 -]
+[2024-10-30 19:26:10,554: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.43.249:8080]
+[2024-10-30 19:26:10,558: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-10-30 19:26:10,743: INFO: _internal: 127.0.0.1 - - [30/Oct/2024 19:26:10] "GET / HTTP/1.1" 200 -]
+[2024-10-30 19:26:21,611: INFO: _internal: 127.0.0.1 - - [30/Oct/2024 19:26:21] "GET / HTTP/1.1" 200 -]
+[2024-10-30 19:26:34,031: INFO: _internal: 127.0.0.1 - - [30/Oct/2024 19:26:34] "POST /predict HTTP/1.1" 200 -]
+[2024-10-30 19:27:08,475: INFO: _internal: 127.0.0.1 - - [30/Oct/2024 19:27:08] "GET / HTTP/1.1" 200 -]
+[2024-10-30 19:27:10,877: INFO: _internal: 127.0.0.1 - - [30/Oct/2024 19:27:10] "GET / HTTP/1.1" 200 -]
+[2024-10-30 19:27:33,748: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.43.249:8080]
+[2024-10-30 19:27:33,750: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-10-30 19:27:49,980: INFO: _internal: 127.0.0.1 - - [30/Oct/2024 19:27:49] "GET / HTTP/1.1" 200 -]
+[2024-10-30 19:28:28,022: INFO: _internal: 127.0.0.1 - - [30/Oct/2024 19:28:28] "GET / HTTP/1.1" 200 -]
+[2024-10-30 19:29:04,803: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.43.249:8080]
+[2024-10-30 19:29:04,809: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-10-30 19:29:10,447: INFO: _internal: 127.0.0.1 - - [30/Oct/2024 19:29:10] "GET / HTTP/1.1" 200 -]
+[2024-10-30 19:29:23,225: INFO: _internal: 127.0.0.1 - - [30/Oct/2024 19:29:23] "GET / HTTP/1.1" 200 -]
+[2024-10-30 19:29:44,264: INFO: _internal: 127.0.0.1 - - [30/Oct/2024 19:29:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-10-30 19:30:24,209: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.43.249:8080]
+[2024-10-30 19:30:24,213: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-10-30 19:30:28,498: INFO: _internal: 127.0.0.1 - - [30/Oct/2024 19:30:28] "GET / HTTP/1.1" 200 -]
+[2024-10-30 19:30:34,323: INFO: _internal: 127.0.0.1 - - [30/Oct/2024 19:30:34] "GET / HTTP/1.1" 200 -]
+[2024-10-30 19:31:19,526: INFO: _internal: 127.0.0.1 - - [30/Oct/2024 19:31:19] "GET / HTTP/1.1" 200 -]
+[2024-10-30 19:31:23,235: INFO: _internal: 127.0.0.1 - - [30/Oct/2024 19:31:23] "GET / HTTP/1.1" 200 -]
+[2024-10-30 19:32:38,805: INFO: _internal: 127.0.0.1 - - [30/Oct/2024 19:32:38] "GET / HTTP/1.1" 200 -]
+[2024-10-30 19:33:10,055: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.43.249:8080]
+[2024-10-30 19:33:10,059: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-10-30 19:33:18,518: INFO: _internal: 127.0.0.1 - - [30/Oct/2024 19:33:18] "GET / HTTP/1.1" 200 -]
+[2024-10-30 19:33:18,854: INFO: _internal: 127.0.0.1 - - [30/Oct/2024 19:33:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-10-30 19:33:42,449: INFO: _internal: 127.0.0.1 - - [30/Oct/2024 19:33:42] "POST /predict HTTP/1.1" 200 -]
